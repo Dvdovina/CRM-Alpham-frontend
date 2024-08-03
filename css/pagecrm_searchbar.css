@@ -1,3 +1,15 @@
 .pagecrm_searchbar {
+  background: linear-gradient(
+    30deg,
+    rgba(46, 51, 90, 0.3) 0%,
+    rgba(28, 27, 51, 0.3) 100%
+  );
+  border-radius: 30px;
+  border: 1px solid #fff;
+  cursor: pointer;
   display: flex;
+  justify-content: space-between;
+  min-width: 281px;
+  padding: 4.5px 10px;
+  width: 80%;
 }

@@ -1,0 +1,6 @@
+.pagecrm_breadcrumbs {
+  align-items: center;
+  column-gap: 13px;
+  display: flex;
+  margin-left: -6px;
+}
