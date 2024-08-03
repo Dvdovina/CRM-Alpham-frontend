@@ -1,0 +1,6 @@
+.pagecrm_search-menu-box {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

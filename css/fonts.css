@@ -11,3 +11,12 @@
   font-display: swap;
   src: url("../font/Play-Bold.ttf");
 }
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../font/Inter-Medium.woff2") format("woff2"),
+    url("../font/Inter-Medium.woff") format("woff");
+}
