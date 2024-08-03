@@ -1,9 +1,7 @@
 @import url("./reset.css");
 @import url("./fonts.css");
-
 /* Page styles */
 @import url("./pagecrm_page.css");
-
 /* Header */
 @import url("./pagecrm_header.css");
 @import url("./pagecrm_logo-box.css");
@@ -17,6 +15,3 @@
 @import url("./pagecrm_popup-menu-opened.css");
 @import url("./pagecrm_popup-menu_navigation.css");
 @import url("./pagecrm_nav-link.css");
-
-
-

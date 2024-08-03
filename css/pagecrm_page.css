@@ -1,38 +1,35 @@
-/* Base styles for mobile-first design (up to 360px) */
 .pagecrm_page {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
   align-items: center;
-  background-image: url('../images/mobile-bkg.webp');
+  background-image: url("../images/mobile-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   font-family: "Play", Arial, sans-serif;
   margin: 0 auto;
+  max-width: 360px;
   min-height: 100vh;
-  min-width: 360px;
+  row-gap: 75px;
   text-rendering: optimizeLegibility;
   width: 100%;
 }
 
-@media (min-width: 320px) and (max-width: 640px) {
+@media (max-width: 639px) {
   /* styles */
 }
 
-@media (min-width: 640px) and (max-width: 980px) {
-   /* styles */
-}
-
-@media (min-width: 980px) and (max-width: 1400px) {
+@media (min-width: 640px) and (max-width: 979px) {
   /* styles */
 }
 
-@media (min-width: 1400px) and (max-width: 1600px) {
+@media (min-width: 980px) and (max-width: 1399px) {
   /* styles */
 }
 
+@media (min-width: 1400px) and (max-width: 1599px) {
+  /* styles */
+}
 
 @media (min-width: 1600px) {
-   /* styles */
+  /* styles */
 }
