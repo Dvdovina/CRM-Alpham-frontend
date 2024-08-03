@@ -1,4 +1,38 @@
-.pagecrm_page{
+/* Base styles for mobile-first design (up to 360px) */
+.pagecrm_page {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  align-items: center;
+  background-image: url('../images/mobile-bkg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
+  font-family: "Play", Arial, sans-serif;
+  margin: 0 auto;
+  min-height: 100vh;
+  min-width: 360px;
+  text-rendering: optimizeLegibility;
+  width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  /* styles */
+}
+
+@media (min-width: 640px) and (max-width: 980px) {
+   /* styles */
+}
+
+@media (min-width: 980px) and (max-width: 1400px) {
+  /* styles */
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  /* styles */
+}
+
+
+@media (min-width: 1600px) {
+   /* styles */
 }
