@@ -1,4 +1,19 @@
 .pagecrm_breadcrumbs-link {
+  color: #e9deff;
   font-size: 12px;
   text-decoration: none;
+}
+
+.pagecrm_breadcrumbs-link:hover {
+  cursor: pointer;
+  text-shadow: 0px 0px 20px #d795ff, 0px 0px 4px #d795ff;
+}
+
+.pagecrm_breadcrumbs-link:visited {
+  color: #e9deff;
+}
+
+.active:hover {
+  cursor: default;
+  text-shadow: none;
 }
