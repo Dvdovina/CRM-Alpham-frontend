@@ -1,7 +1,7 @@
 .pagecrm_popup-menu {
-  left: 0px;
+  left: -10px;
   overflow: hidden;
   position: absolute;
-  top: 0px;
+  top: -30px;
   visibility: hidden;
 }

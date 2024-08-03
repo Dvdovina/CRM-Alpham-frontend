@@ -1,0 +1,13 @@
+.pagecrm_popup-menu_navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background: linear-gradient(
+    30deg,
+    rgba(46, 51, 90, 0.8) 0%,
+    rgba(28, 27, 51, 0.8) 100%
+  );
+  width: 100%;
+  border-radius: 0 10% 10% 0%;
+  padding: 30px;
+}

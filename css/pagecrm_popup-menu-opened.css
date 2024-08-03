@@ -1,0 +1,6 @@
+.pagecrm_popup-menu-opened {
+  display: flex;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+  visibility: visible;
+}

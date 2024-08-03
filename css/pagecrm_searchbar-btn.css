@@ -3,6 +3,7 @@
   background-color: transparent;
   border: none;
   box-sizing: border-box;
+  cursor: pointer;
   display: flex;
   padding: 0;
 }

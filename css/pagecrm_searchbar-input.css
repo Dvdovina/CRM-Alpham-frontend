@@ -1,0 +1,11 @@
+.pagecrm_searchbar-input {
+  background-color: transparent;
+  border: none;
+  color: #e9deff;
+  font-size: 10px;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+}
